@@ -57,7 +57,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     if (!glview) 
 	{
-		glview = GLViewImpl::create("Vertical Velocity");
+		glview = GLViewImpl::create("Impossible Bricks");
 		director->setOpenGLView(glview);
     }
 

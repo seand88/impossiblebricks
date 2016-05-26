@@ -45,7 +45,7 @@ bool HelloWorld::init()
 	ParticleSystemQuad *bgParticle = ParticleSystemQuad::create("particles/game_bg.plist");
 	this->addChild(bgParticle);
 
-	auto logoGraphic = Sprite::create("vertvel_logo.png");
+	auto logoGraphic = Sprite::create("logo.png");
 	logoGraphic->setPosition(visibleSize.width/2, visibleSize.height/1.3);
 	this->addChild(logoGraphic, 0);
 
